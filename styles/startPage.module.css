@@ -1,0 +1,47 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.textSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+
+.mainText {
+   width: 60%;
+
+   padding: 16px;
+   font-size: 36px;
+   color: #202020;
+}
+
+.smallerText {
+  width: 60%;
+  padding: 16px;
+  font-size: 16px;
+  color: #202020;
+}
+
+.exploreBtn {
+  background-color: #ff0558;
+  border-radius: 4px;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px;
+  width: 60%;
+  margin: 24px 0;
+}
+
+.img {
+  padding: 24px;
+  width: 60%;
+}

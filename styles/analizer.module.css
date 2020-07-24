@@ -1,0 +1,139 @@
+.mainWrapper, .navbar, .point, .uiArea, .resultsArea, .dataContainer, .helpContainer, .copyContainer {
+  display: flex;
+}
+
+.mainWrapper {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+   height: 10%;
+   width: 100%;
+   background: #f5f5f5;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: row;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  padding: 8px 16px;
+  color: #ff0558;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.uiArea {
+  width: 100%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.copyContainer {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.copyArea {
+   width: 80%;
+   height: 70%;
+   background-color: #f5f5f5;
+   border: 2px solid #ff0558;
+   border-radius: 10px;
+   resize: none;
+   padding: 10px;
+}
+
+.copyArea:focus {
+  outline: none;
+  box-shadow: 0px 0px 25px #ccc;
+}
+
+.analizerBtn {
+  background: #ff0558;
+  border: 1px solid #ff0558;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 30%;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+
+.analizerBtn:hover {
+  background: #fff;
+  color: #ff0558;
+  border: 2px solid #ff0558
+}
+
+.resultsArea {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dataContainer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 40%;
+}
+
+.point {
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 1px solid #ff0558;
+  height: 70%;
+  width: 30%;
+  border-radius: 10px;
+  border: 0;
+  transition: 0.3s linear;
+  opacity: 0.4;
+}
+
+.point:hover {
+  border: 2px solid #ff0558;
+  opacity: 1;
+}
+
+.helpContainer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 60%;
+}
+
+.helpTitle {
+  font-size: 36px;
+  padding-top: 16px;
+  color: #ff0558;
+}
+
+.searchTheme {
+  width: 70%;
+  border: 1px solid #ff0558;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 24px;
+  transition: 0.2s linear;
+}
+
+.searchTheme:focus {
+  box-shadow: 0px 0px 4px #ff0558;
+  outline: none;
+}
