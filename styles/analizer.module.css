@@ -1,5 +1,6 @@
-.mainWrapper, .navbar, .point, .uiArea, .resultsArea, .dataContainer, .helpContainer, .copyContainer {
+.mainWrapper, .navbar, .point, .uiArea, .closeBtn, .popupPositionning, .resultsArea, .dataContainer, .helpContainer, .copyContainer {
   display: flex;
+ 
 }
 
 .mainWrapper {
@@ -51,6 +52,7 @@
    border-radius: 10px;
    resize: none;
    padding: 10px;
+   overflow-y: auto;
 }
 
 .copyArea:focus {
@@ -136,4 +138,33 @@
 .searchTheme:focus {
   box-shadow: 0px 0px 4px #ff0558;
   outline: none;
+}
+
+.popupPositionning {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 40vh;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 3, 3, 0.472);
+  z-index: 999;
+}
+
+.closeBtn {
+  margin: 8px 0;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+  color: red;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  cursor: pointer;
 }
